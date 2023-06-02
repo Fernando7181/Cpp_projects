@@ -1,0 +1,62 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    int op, n, x, f1, f2, f3;
+    f1=f2=f3=0;
+    float*alunos, soma=0, media;
+    do
+}
+system("cls");
+system("colorfc");
+cout<<"\n\n~~~AlocacaoDinamica~~~";
+cout<<"\n~~";
+cout<<"\n~1-inserenumerodealunos~";
+cout<<"\n~2-Inserenotas~";
+cout<<"\n~3-Calculamediadaturma~";
+cout<<"\n~4-Exibe~";
+cout<<"\n~5-Sai~";
+cout<<"\n~Opcao:~";
+cout<<"\n~~";
+cout<<"\n~~~~~~~~~~~~~~~~\n";
+cin>>op;
+system("cls");system("color0e");
+switch(op){
+    case1:cout<<"\nDigitenumerodealunos:";cin>>n;
+    alunos=newfloat[n];
+    if(alunos==0)
+    {cout<<"\nNaofoipossivelfazerAlocacao\n";
+     return1;
+     }f1=1;break;
+}
+case2:if(f1==1){
+    for(x=0;x<n;x++)
+    {cout<<"\nDigitenota:";cin>>alunos[x];}
+    f2=1;
+}
+elsecout<<"\nVocenaodeterminouaquantidade\n";
+ break;
+case3:if(f2==1){
+    for(soma=alunos[0],x=1;x<n;x++)soma+=alunos[x];
+    media=soma/n;
+    cout<<"\nMediaCalculada\n\n";
+    f3=1;
+}
+elsecout<<"\nVocepuloualguma(s)etapa(s)\n";
+ break;  
+case4:if(f3==1){
+    out<<"\nRelacaodaNotas\n";
+    for(x=0;x<n;x++)
+     cout<<"\n"<<setw(3)<<x+1<<"-"<<alunos[x];
+ cout<<setprecision(3)<<media;
+ 
+}
+elsecout<<"\nVocepuloualguma(s)etapa(s)\n";
+break;
+case5:cout<<"\nFimdaalocacaoDinamica";
+     delete[]alunos;alunos=0;
+     break;
+default:cout<<"\nOpcaoInvalida\n";
+cout<<"\n\n";system("pause");
+while(op!=5);
+return0;
