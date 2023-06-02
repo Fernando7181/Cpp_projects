@@ -24,3 +24,7 @@ Small projects that i've been working on for my university and myself, big proje
 [Students and grades](https://github.com/Fernando7181/Cpp_projects/blob/main/Trabalho%20calcular%20media%20aluno.cpp) 
 
   This projects will ask you for one student name and two grades and will do that and will give you the avarage class grade so you know if the class has passed or not
+  
+ [Salary and taxes](https://github.com/Fernando7181/Cpp_projects/blob/main/Salario%20Imposto.cpp) 
+ 
+  On here you'll insert the name and salary of your workers, and not just that. Depending on how much they earn there will be taxes applied to it and showing the amount that was taken off their salary and whats the new salary that was applied to it.
